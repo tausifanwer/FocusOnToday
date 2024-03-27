@@ -64,6 +64,7 @@ function reste() {
   progressValue.firstElementChild.innerText = `${completeGoalCount}/${inputFields.length} completed`;
   progressValue.style.width = `${(completeGoalCount / inputFields.length) * 100}%`;
   progressLabel.innerText=allQuotes[0]
+  window.location.reload();
 }
 
 inputFields.forEach((input) => {
